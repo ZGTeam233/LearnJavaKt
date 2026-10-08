@@ -1,7 +1,7 @@
-# LearnKotlin
+# LearnJavaKt
 终于学 Material(And) 和 Fabric(MC) 了，啊啊啊
 
-稍微把所有学习 **Kotlin开发** 的项目整合了一下
+稍微把所有学习 **Java/Kotlin开发** 的项目整合了一下
 
 Android 学习项目多来自 [**郭霖** (*guolindev*|点此访问他的 *GitHub*)](https://github.com/guolindev)
 
