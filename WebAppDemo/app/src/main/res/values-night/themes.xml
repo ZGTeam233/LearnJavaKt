@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-
-    <!-- 暗色主题：继承自相同的基础主题。 -->
-    <!-- 只覆盖需要变化的属性，通常是颜色和背景。 -->
-
-    <!-- 最终使用的主题，继承自基础主题。便于针对不同API版本或配置进行微调 -->
-    <style name="Theme.WebAppDemo" parent="Base.Theme.WebAppDemo" />
-
-</resources>

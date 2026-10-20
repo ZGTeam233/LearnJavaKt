@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">TaskKillTest</string>
-    <string name="layout_waiting">状态：等待 Shizuku 连接...</string>
-    <string name="layout_get">一键获取进程列表</string>
-    <string name="layout_result">执行结果将显示在这里...</string>
-</resources>
