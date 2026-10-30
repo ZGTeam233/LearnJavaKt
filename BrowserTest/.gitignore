@@ -1,0 +1,71 @@
+.gradle
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# ===== Gradle =====
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!src/**/build/
+
+# ===== Android / 本地配置 =====
+/local.properties
+/captures/
+/*.apk
+/*.aab
+/*.apk.idSig
+.externalNativeBuild/
+.cxx/
+.ndk/
+
+# ===== Kotlin =====
+.kotlin/
+*.kotlin_module
+
+# ===== IDE：Android Studio / IntelliJ IDEA =====
+*.iml
+.idea/*
+
+# ===== 签名文件与敏感信息 =====
+# 生产签名文件不要入库，按需调整路径
+*.jks
+*.keystore
+!debug.keystore
+/signing/
+/signing.properties
+/secrets.properties
+local.properties
+
+# ===== 日志、临时文件 =====
+*.log
+*.hprof
+*.tmp
+*.bak
+replay_pid*.log
+hs_err_pid*
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== NDK / CMake（如有 C++ 代码）=====
+**/.cxx/
+**/obj/
+**/libs/armeabi*/
+**/libs/x86*/
+**/libs/arm64*/
+
+# ===== 测试与覆盖率输出 =====
+**/coverage/
+**/reports/
+!src/**/reports/
